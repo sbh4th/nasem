@@ -1,0 +1,140 @@
+---
+title: "Measuring Health Equity: Embracing Heterogeneity"
+subtitle: "The Ecosystem of Health Equity Measures: A Workshop"
+author: "Sam Harper"
+institute: "McGill University"
+date: 2023-06-21
+date-format: iso
+format: 
+  revealjs:
+    theme: [default, custom.scss]
+    width: 1400
+    height: 788
+    slide-number: true
+    html-math-method: mathjax
+    # embed-resources: true
+editor: source
+bibliography: nasem.bib
+csl: vancouver-author-date.csl
+filters:
+  - parse-latex
+---
+
+##  Measuring inequality is not value neutral
+
+- guidance and ethical considerations for selecting measures (e.g., how heterogeneity gets obscured)
+
+- harm that can be done when people use simplistic (and biased) narratives to tell complex stories (based on critique of deaths of despair)
+
+## 
+
+::: columns
+::: {.column width="20%"}
+Inequality metrics generally simple with 2 groups.
+
+- Risk difference?
+- Risk ratio?
+:::
+
+::: {.column width="80%"}
+![](images/hi-trends-bw.png)
+:::
+
+:::
+
+::: aside
+Source: Author's calculations from [Health, United States](https://www.cdc.gov/nchs/data/hus/2020-2021/HINone.pdf)
+:::
+
+## ![](images/hi-trends-bw.png)
+
+::: aside
+Source: [Health, United States](https://www.cdc.gov/nchs/data/hus/2020-2021/HINone.pdf)
+:::
+
+##
+::: columns
+::: {.column width="20%"}
+Realistic data is harder.
+
+- Index of inequality?
+- Average deviation?
+
+:::
+
+::: {.column width="80%"}
+![](images/hi-trends-all.png)
+:::
+
+:::
+
+::: aside
+Source: Author's calculations from [Health, United States](https://www.cdc.gov/nchs/data/hus/2020-2021/HINone.pdf)
+:::
+
+## ![](images/hi-trends-all.png)
+
+::: aside
+Source: [Health, United States](https://www.cdc.gov/nchs/data/hus/2020-2021/HINone.pdf)
+:::
+
+## ![](images/hi-trends-all.png)
+
+::: aside
+Source: [Health, United States](https://www.cdc.gov/nchs/data/hus/2020-2021/HINone.pdf)
+:::
+
+##
+
+
+::: aside
+@Harper:2010aa
+:::
+
+## Need to separate outcomes and determinants
+
+## Grappling with intersectionality
+- Young, black, poor, low-educated, female
+- Old, white, rich, high-educated, male
+
+## New approaches to measurement
+
+## Simplistic narratives create harm?
+
+> Narratives matter because they can synthesize and simplify complex phenomena into a single cause-and-effect story. They identify heroes and villains, emphasize particular causes and populations, set the agenda for interventions, and minimize alternative explanations and solutions.
+
+::: aside
+@Harper:2021aa
+:::
+
+## ![](images/rural-upoison-trends.png)
+
+
+::: aside
+Source: Author's calculations.
+:::
+
+## 
+
+::: columns
+::: {.column width="20%"}
+The story of rural opioid deaths masks population-wide impacts.
+:::
+
+::: {.column width="80%"}
+![](images/rural-upoison-trends.png)
+:::
+
+:::
+
+::: aside
+Source: Author's calculations.
+:::
+
+## Power of narratives
+
+## Deaths of despair
+- Focus on low-educated white Americans
+- Relative to 
+
+## References
