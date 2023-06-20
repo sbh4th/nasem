@@ -20,6 +20,25 @@ filters:
   - parse-latex
 ---
 
+## {.center background-image="images/ecosystem.png" background-opacity=0.25}
+
+<br>
+
+### [Measuring inequalities must be normative and scientific.]{.blue}
+
+<br>
+
+### [Moving beyond description is essential.]{.blue}
+
+## 
+
+
+[Measuring inequalities must be normative and scientific.]{.h2center}
+
+<br>
+
+### [Moving beyond description is essential.]{.blue}
+
 ##  Measuring inequality is not value neutral
 
 - guidance and ethical considerations for selecting measures (e.g., how heterogeneity gets obscured)
@@ -85,6 +104,12 @@ Source: Author's calculations.
 :::
 
 ## 
+- >80% of decline 1993-2003 due to 
+- Huge declines in homicide.
+- Improved access to life-saving HIV therapy.
+- 
+
+##
 
 ::: columns
 ::: {.column width="50%"}

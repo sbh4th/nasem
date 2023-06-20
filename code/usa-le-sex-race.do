@@ -6,7 +6,7 @@ log using "code/usa-le-sex-race.txt", replace text
 //  input:   asmr-sex-race-nhisp-1999-2018.txt, asmr-sex-race-hisp-1999-2018
 //  output:  le-age-sex-race.csv
 //  project: life expectancy	
-//  author:  sam harper \ 2020-06-24
+//  author:  sam harper \ 2023-06-20
 
 
 // #0
@@ -21,8 +21,7 @@ macro drop _all
 
 // #1
 // load the mortality data, downloaded from CDC WONDER database
-tempname nhisp
-import delimited "data/cdc-wonder/asmr-sex-race-nhisp-1999-2018.txt", ///
+import delimited "data/asmr-1999-2020.txt", ///
   encoding(ISO-8859-1)clear
 
 * drop extra rows for Notes from CDC WONDER
@@ -32,13 +31,12 @@ drop if year==.
 
 * fix up variable names and labels
 encode gender, gen(sex)
-encode race, gen(race5)
+encode race, gen(race2)
 drop race
-rename race5 race
-label define race 1 "NH AIAN" 2 "NH API" 3 "NH Black" ///
-  4 "NH White" 5 "Hispanic", modify
+rename race2 race
+label define race 1 "Black" 2 "White", modify
 label values race race
-label var race "Race-ethnicity"
+label var race "Race"
 
 replace tenyearagegroups="01-04 years" if tenyearagegroups=="1-4 years"
 replace tenyearagegroups="05-14 years" if tenyearagegroups=="5-14 years"
@@ -46,57 +44,17 @@ replace tenyearagegroups="00-01 years" if tenyearagegroups=="< 1 year"
 encode tenyearagegroups, gen(age)
 rename (deaths population) (count pop)
 
-drop gender-tenyearagegroupscode yearcode cruderate
-
-save "data/cdc-wonder/`nhisp'", replace
-
-* Now for Hispanics
-tempname hisp
-import delimited "data/cdc-wonder/asmr-sex-race-hisp-1999-2018.txt", ///
-  encoding(ISO-8859-1)clear
-
-* drop extra rows for Notes from CDC WONDER
-drop notes
-drop if year==.
-
-* fix up variable names and labels
-encode gender, gen(sex)
-gen race=5
-label define race 1 "NH AIAN" 2 "NH API" 3 "NH Black" ///
-  4 "NH White" 5 "Hispanic", modify
-label values race race
-label var race "Race-ethnicity"
-
-replace tenyearagegroups="01-04 years" if tenyearagegroups=="1-4 years"
-replace tenyearagegroups="05-14 years" if tenyearagegroups=="5-14 years"
-replace tenyearagegroups="00-01 years" if tenyearagegroups=="< 1 year"
-encode tenyearagegroups, gen(age)
-rename (deaths population) (count pop)
 
 drop gender-tenyearagegroupscode yearcode cruderate
-
-save "data/cdc-wonder/`hisp'", replace
-
-use "data/cdc-wonder/`nhisp'", clear
-append using "data/cdc-wonder/`hisp'"
 
 gen rate = count / pop * 100000
 label var rate "death rate"
 label var count "no. of deaths"
 label var pop "mid-year population"
 
-* save this dataset for life expectancy calculations (#3)
-save "data/cdc-wonder/usa-le-sex-race", replace
-
-* erase temporary datasets
-erase "data/cdc-wonder/`nhisp'.dta"
-erase "data/cdc-wonder/`hisp'.dta"
-
-
 
 // #2
 // set up for life table calculation
-use "data/cdc-wonder/usa-le-sex-race.dta", clear
 
 * have a look at the rates by year
 table age year race, c(mean rate) by(sex) format(%7.1f)
@@ -209,17 +167,9 @@ format %8.6f mx qx px
 format %9.0fc pop count lx dx Lx Tx
 
 * table of life expectancies by year
-table year sex race if age==1 & race>1, c(mean ex) format(%4.1f)
+table year sex race if age==1, c(mean ex) format(%4.1f)
 
-* export for joinpoint analysis
-gen year0=year-1999
-gen age3 = 1 if age==1
-replace age3 = 2 if age==5
-replace age3 = 3 if age==9
-sort age3 sex race year0
-export delimited age3 sex race year0 ex se_ex using ///
-  "data/cdc-wonder/le-age-sex-race.csv" if age==1 | age==5 | age==9, ///
-  nolabel replace
+
 
 
 log close
