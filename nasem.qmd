@@ -1,5 +1,5 @@
 ---
-title: "Measuring Health Equity: Embracing Heterogeneity"
+title: "Measuring Health Equity: Beyond Description"
 subtitle: "The Ecosystem of Health Equity Measures: A Workshop"
 author: "Sam Harper"
 institute: "McGill University"
@@ -26,6 +26,8 @@ filters:
 
 - harm that can be done when people use simplistic (and biased) narratives to tell complex stories (based on critique of deaths of despair)
 
+
+
 ## 
 
 ::: columns
@@ -46,7 +48,65 @@ Inequality metrics generally simple with 2 groups.
 Source: Author's calculations from [Health, United States](https://www.cdc.gov/nchs/data/hus/2020-2021/HINone.pdf)
 :::
 
-## ![](images/hi-trends-bw.png)
+## 
+
+::: columns
+::: {.column width="30%"}
+> “Black males live seven years less than white males...That basic gap hasn't changed in half a century"
+:::
+
+::: {.column width="70%"}
+![](images/le-trends-bw.png)
+:::
+
+:::
+
+::: aside
+John Dorschner, *The Minority Health Crisis*, Miami Herald, Sept 13, 2004
+:::
+
+
+## 
+
+::: columns
+::: {.column width="20%"}
+- LE gaps are not fixed.
+- What leads to rises and falls?
+:::
+
+::: {.column width="80%"}
+![](images/le-trends-bw-gap.png)
+:::
+
+:::
+
+::: aside
+Source: Author's calculations.
+:::
+
+## 
+
+::: columns
+::: {.column width="50%"}
+![](images/leonhardt-nyt-2020.png)
+- Gap is not fixed.
+- What leads to rises and falls?
+:::
+
+::: {.column width="50%"}
+![](images/hochschild-nyt-2020.png)
+:::
+
+:::
+
+::: aside
+Source: Author's calculations.
+:::
+
+
+
+
+## ![](images/le-trends-bw-gap.png)
 
 ::: aside
 Source: [Health, United States](https://www.cdc.gov/nchs/data/hus/2020-2021/HINone.pdf)
@@ -132,9 +192,43 @@ Source: Author's calculations.
 :::
 
 ## Power of narratives
+::: columns
+::: {.column width="70%"}
+> Our contribution was to link drug overdoses, suicides, and alcohol-related deaths, to note that [all were rising together]{.red}, that together they were [afflicting mostly whites]{.red}, and that, among that group, the long fall in total mortality had stopped or reversed. We also chose the collective label “deaths of despair,” which helped publicize the combined epidemic and emphasize that it included more than just drug overdose.
+:::
+
+::: {.column width="30%"}
+![](images/case-deaton-cover.png){width="75%"}
+:::
+
+:::
+
+::: aside
+@Case:2020aa
+:::
 
 ## Deaths of despair
 - Focus on low-educated white Americans
 - Relative to 
+
+## Access to better data improves science
+
+::: columns
+::: {.column width="50%"}
+- 30 confidential data centers created 1994-2019.
+- Stronger research designs.
+- Improved researcher productivity.
+- Outputs from improved access saw increased citation by policy documents.
+:::
+
+::: {.column width="50%"}
+![](images/nagaraj-nber-2023.png)
+:::
+
+:::
+
+::: aside
+@Nagaraj:2023aa
+:::
 
 ## References
