@@ -26,6 +26,7 @@ leg <- d2 %>% filter(Race=="Gap" & Year>=1950) %>%
   facet_wrap(~Gender) + scale_y_continuous(limits=c(0,10)) +
   scale_x_continuous(limits=c(1950,2022)) +
   ylab("Life expectancy gap (years)") + xlab("") +
+  ggtitle("Black-white life expectancy gap, 1950-2020") +
   stheme + theme(panel.spacing = unit(1, "lines"))
 
 # export to file

@@ -97,10 +97,20 @@ See @Evans:2018aa, @Merlo:2018aa.
 @Persmark:2020aa on the probability of reporting opioid use disorder.
 :::
 
+## {.center}
+
+### Decomposition also provides opportunities to reconcile trends and explanations for inequalities. 
+
+## ![](images/le-trends-bw.png)
+
+::: aside
+Source: Author's calculations.
+:::
+
 ## 
 > “Black males live seven years less than white males...That basic gap hasn't changed in half a century"
 
-John Dorschner, *The Minority Health Crisis*, Miami Herald, Sept 13, 2004
+John Dorschner, *The Minority Health Crisis*, Miami Herald, 2004
 
 > “...improving the socioeconomic conditions of African American families and communities is a prerequisite to...reducing the Black-White gap in health.”
 
@@ -109,24 +119,6 @@ Williams & Collins, 2004
 > "Where we live, learn, work and play has a greater impact on how long and how well we live than medical care."
 
 Robert Wood Johnson Foundation, [*What Drives Health*](commissiononhealth.org/WhatDrivesHealth.aspx), 2016
-
-## 
-
-::: columns
-::: {.column width="30%"}
-> “Black males live seven years less than white males...That basic gap hasn't changed in half a century"
-:::
-
-::: {.column width="70%"}
-![](images/le-trends-bw.png)
-:::
-
-:::
-
-::: aside
-John Dorschner, *The Minority Health Crisis*, Miami Herald, Sept 13, 2004
-:::
-
 
 ## 
 
@@ -267,6 +259,28 @@ Years of life lost 2014-2017, by gender, race, cause
 
 ::: aside
 @Harper:2021aa
+:::
+
+##
+::: columns
+::: {.column width="45%"}
+
+
+
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="50%"}
+![](images/pew-2022.png)
+:::
+
+:::
+
+::: aside
+Source: [Pew Research Center](https://www.pewresearch.org/short-reads/2022/01/19/recent-surge-in-u-s-drug-overdose-deaths-has-hit-black-men-the-hardest/ft_22-01-12_drugoverdoses_1/)
 :::
 
 ##
