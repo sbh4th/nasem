@@ -27,45 +27,13 @@ filters:
 Adapted from @McGuire:2006aa
 :::
 
-## {.center background-image="images/mcguire-2006.png" background-opacity=0.25 background-size="contain"}
+## {.center background-image="images/mcguire-2006.png" background-opacity=0.2 background-size="85%"}
 
 <br>
 
 ::: {.larger}
 ### [Moving beyond description is essential for progress]{.blue}
 :::
-
-
-## Measures of health inequality are not value neutral
-- Scale of measurement (absolute/relative)
-- Weighting: how much and to whom?
-- Reference points: different from what standard?
-
-- Impact on our judgments of both the magnitude of health inequality and whether health inequalities are worsening or improving.
-
-- Monitoring health inequalities requires both precise measurement and value judgments—they are inseparable.
-
-- A suite of health inequality measures is likely necessary to provide a complete description of the magnitude of inequality.
-
-##
-::: columns
-::: {.column width="70%"}
-
-> we have systematically compared this same set of summary measures of disparity across 22 separate analyses of cancer incidence, mortality, and risk factors and found that, in nearly half of all cases, a substantive judgment about disparity trends required a priori decisions about whether disparities should be measured in [absolute or relative terms]{.red} or whether to use [population-weighted versus unweighted]{.red} disparity measures
-
-:::
-
-::: {.column width="30%"}
-![](images/hdmono2_cover.jpg)
-:::
-
-:::
-
-::: aside
-@Harper:2007ab
-:::
-
-
 
 ## From description to explanation
 
@@ -254,24 +222,6 @@ Source: The Economist, Jan 4th, 2018.
 ![](images/hochschild-nyt-2020.png)
 :::
 
-:::
-
-
-
-
-## ![](images/le-trends-bw-gap.png)
-
-::: aside
-Source: [Health, United States](https://www.cdc.gov/nchs/data/hus/2020-2021/HINone.pdf)
-:::
-
-
-
-## ![](images/rural-upoison-trends.png)
-
-
-::: aside
-Source: Author's calculations.
 :::
 
 ## {background-image="images/snyder-syringe.jpg" background-opacity=0.25}
